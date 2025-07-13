@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+
+    <!-- Wallet background with gradient and rounded corners -->
+    <path
+        android:pathData="M40,40 H160 A20,20 0 0 1 180,60 V140 A20,20 0 0 1 160,160 H40 A20,20 0 0 1 20,140 V60 A20,20 0 0 1 40,40 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="20"
+                android:startY="40"
+                android:endX="180"
+                android:endY="160"
+                android:type="linear">
+                <item android:color="#4CAF50" android:offset="0"/>
+                <item android:color="#2E7D32" android:offset="1"/>
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Shadow effect for depth -->
+    <path
+        android:pathData="M40,40 H160 A20,20 0 0 1 180,60 V140 A20,20 0 0 1 160,160 H40 A20,20 0 0 1 20,140 V60 A20,20 0 0 1 40,40 Z"
+        android:fillColor="#20000000"/>
+
+    <!-- Money symbol (Dollar sign with refined design) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M100,60 V140 M90,70 H110 A10,10 0 0 1 110,90 H90 A10,10 0 0 0 90,110 H110 A10,10 0 0 1 110,130 H90"/>
+    
+    <!-- Additional decorative element (e.g., a small shine or highlight) -->
+    <path
+        android:fillColor="#80FFFFFF"
+        android:pathData="M40,40 L60,60 A10,10 0 0 0 70,50 Z"/>
+</vector>

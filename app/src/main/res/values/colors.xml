@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Material Design Purple Colors -->
+    <color name="purple_200">#FFBB86FC</color>  <!-- Light Purple - Used for secondary elements -->
+    <color name="purple_500">#FF6200EE</color>  <!-- Primary Purple - Main brand color -->
+    <color name="purple_700">#FF3700B3</color>  <!-- Dark Purple - Used for pressed states -->
+
+    <!-- Material Design Teal Colors -->
+    <color name="teal_200">#FF03DAC5</color>   <!-- Light Teal - Used for accents -->
+    <color name="teal_700">#FF018786</color>   <!-- Dark Teal - Used for primary actions -->
+
+    <!-- Basic Colors -->
+    <color name="black">#FF000000</color>      <!-- Pure Black - Text and icons -->
+    <color name="white">#FFFFFFFF</color>      <!-- Pure White - Backgrounds and light text -->
+
+    <!-- Transaction Status Colors -->
+    <color name="income_green">#4CAF50</color>  <!-- Green - Used for income amounts -->
+    <color name="expense_red">#F44336</color>   <!-- Red - Used for expense amounts -->
+    <color name="gray_neutral">#9E9E9E</color>  <!-- Gray - Used for neutral/disabled states -->
+
+    <!-- Navigation Colors -->
+    <color name="accent">@color/teal_200</color>  <!-- Accent color for selected navigation items -->
+    <color name="inactive">#757575</color>         <!-- Gray color for inactive navigation items -->
+
+    <!-- Category Colors -->
+    <color name="category_background">#D8E2F2FF</color>  <!-- Light blue background for category items -->
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="200dp"
+    android:height="200dp"
+    android:viewportWidth="200"
+    android:viewportHeight="200">
+    
+    <!-- Graph background -->
+    <path
+        android:fillColor="#2196F3"
+        android:pathData="M40,40 L160,40 L160,160 L40,160 Z"/>
+    
+    <!-- Graph lines -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="4"
+        android:pathData="M60,140 L80,100 L100,120 L120,80 L140,60"/>
+    
+    <!-- Graph points -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,140 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M80,100 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M100,120 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M120,80 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0"/>
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M140,60 a6,6 0 1,0 12,0 a6,6 0 1,0 -12,0"/>
+</vector> 
